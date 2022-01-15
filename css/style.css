@@ -185,6 +185,9 @@ hr{
 .golden-color{
     color: orange;
 }
+.half-rating{
+    color: grey;
+}
 .see-more-btn{
     margin-left: 926px;
     margin-bottom: 100px;
