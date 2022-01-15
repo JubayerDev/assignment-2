@@ -1,6 +1,7 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
 body{
     margin: 0;
@@ -87,6 +88,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
     margin-right: 50px;
+    margin-bottom: 50px;
 }
 .collection{
     width: 329px;
@@ -136,4 +138,103 @@ body{
 }
 .golden-color{
     color: orange;
+}
+.see-more-btn{
+    margin-left: 926px;
+    margin-bottom: 100px;
+}
+.see-more-btn a{
+    display: inline-block;
+    text-decoration: none;
+    color: #E02C6D;
+}
+.see-more-btn .fas{
+    color: #E02C6D;
+}
+
+/* Contact Area Stayles */
+
+.contact-area{
+    max-width: 1140px;
+    background-color: #881e45;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    height: 412px;
+}
+.contacts{
+    width: 500px;
+    margin: auto;
+}
+.contact-info{
+    text-align: center;
+}
+.contact-info h1{
+    font-size: 45px;
+    color: #FFF;
+    font-weight: 600;
+}
+.contact-info p{
+    color: #FFF;
+    font-weight: 400;
+}
+.email-area{
+    padding: 19px 50px;
+    outline: 0;
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.submit-btn{
+    padding: 19px 20px 19px 20px;
+    outline: none;
+    border: none;
+    border-radius: 0px 50px 50px 0;
+    text-transform: uppercase;
+    flex-basis: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #EF6045;
+    cursor: pointer;
+    transition: .3s;
+}
+.submit-btn:hover{
+    background-color: black;
+    color: #FFF;
+}
+
+
+/* Footer Styles */
+footer{
+    height: 240px;
+    background-color: #0A0826;
+    display: block;
+    position: relative;
+}
+.footer-details{
+    color: #FFF;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 38%;
+}
+.font-details h2{
+    font-size: 24px;
+}
+.font-details p{
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.social-icons{
+    margin-right: 20px;
+}
+.social-icons i{
+    margin-left: 16px;
+    background-color: #22203B;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }
